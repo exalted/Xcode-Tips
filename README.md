@@ -3,6 +3,11 @@ Xcode-Tips
 
 Some Xcode tips & tricks that I find *kinda* useful...
 
+Sweet repos
+===========
+
+* [Xcode-CodeSnippets](https://github.com/exalted/Xcode-CodeSnippets)
+
 Thousand words ;-)
 ==================
 
