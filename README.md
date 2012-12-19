@@ -1,7 +1,7 @@
 Xcode-Tips
 ==========
 
-Some Xcode tips &amp; tricks which I find *kinda* useful
+Some Xcode tips & tricks that I find *kinda* useful...
 
 Thousand words ;-)
 ==================
