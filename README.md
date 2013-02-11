@@ -4,12 +4,12 @@ Xcode-Tips
 Some Xcode tips & tricks that I find *kinda* useful...
 
 Sweet repos
-===========
+-----------
 
 * [Xcode-CodeSnippets](https://github.com/exalted/Xcode-CodeSnippets)
 
 Thousand words ;-)
-==================
+------------------
 
 ![Scheme Run Arguments](Scheme%20Run%20Arguments.png "Scheme Run Arguments")
 
