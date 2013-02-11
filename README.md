@@ -3,6 +3,14 @@ Xcode-Tips
 
 Some Xcode tips & tricks that I find *kinda* useful...
 
+Disable plugins
+---------------
+
+```bash
+$ PLUGINS_DIR=/Applications/Xcode.app/Contents/PlugIns
+$ f() { local PLUGINS=("IDEGit" "IDESubversion" "IDERepositoryViewer"); for i in ${PLUGINS[@]}; do mv -vni "$PLUGINS_DIR/$i.ideplugin" "$PLUGINS_DIR/$i-disabled.ideplugin"; done }; f; unset -f f;
+```
+
 Sweet repos
 -----------
 
