@@ -23,4 +23,8 @@ Thousand words ;-)
 
 ![All Exceptions Break On Throw](All%20Exceptions%20Break%20On%20Throw.png "All Exceptions Break On Throw")
 
+![Exception Breakpoint](http://natashatherobot.com/wp-content/uploads/Screen-Shot-2015-06-30-at-6.28.21-AM.png)
+
+For details for the trick above: http://natashatherobot.com/xcode-debugging-trick/
+
 ![Hide Debugger When Exists Unexpectedly](Hide%20Debugger%20When%20Exists%20Unexpectedly.png "Hide Debugger When Exists Unexpectedly")
