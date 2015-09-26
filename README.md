@@ -3,6 +3,15 @@ Xcode-Tips
 
 Some Xcode tips & tricks that I find *kinda* useful...
 
+Styling
+-------
+
+Make text not be antialiased (useful for non-retina screens) — [makes great sense using Monaco font](https://www.mikeash.com/pyblog/friday-qa-2015-08-14-an-xcode-plugin-for-unsmoothed-text.html). ([Reference](http://stackoverflow.com/a/11675163/11895))
+
+```bash
+defaults write com.apple.dt.Xcode NSFontDefaultScreenFontSubstitutionEnabled -bool YES
+```
+
 Disable plugins
 ---------------
 
