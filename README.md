@@ -12,6 +12,15 @@ Make text not be antialiased (useful for non-retina screens) — [makes great se
 defaults write com.apple.dt.Xcode NSFontDefaultScreenFontSubstitutionEnabled -bool YES
 ```
 
+Faster build times by leveraging multi-core CPU
+-----------------------------------------------
+
+```bash
+defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileTasks $(sysctl -n hw.ncpu)
+```
+
+Ref.: http://merowing.info/2015/12/little-things-that-can-make-your-life-easier-in-2016/
+
 Disable plugins
 ---------------
 
@@ -35,5 +44,9 @@ Thousand words ;-)
 ![Exception Breakpoint](http://natashatherobot.com/wp-content/uploads/Screen-Shot-2015-06-30-at-6.28.21-AM.png)
 
 For details for the trick above: http://natashatherobot.com/xcode-debugging-trick/
+
+![Using the power of User Breakpoints](http://merowing.info/2015/12/symbols.png)
+
+For details for the trick above: http://merowing.info/2015/12/little-things-that-can-make-your-life-easier-in-2016/
 
 ![Hide Debugger When Exists Unexpectedly](Hide%20Debugger%20When%20Exists%20Unexpectedly.png "Hide Debugger When Exists Unexpectedly")
